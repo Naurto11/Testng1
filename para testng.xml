@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  
+  
+  
+    <parameter name="username" value="sureshvivek432gmail.com"></parameter>
+  <parameter name="password" value=" suressh67787"></parameter>
+  
+  <parameter name="txtbox" value="9578946123"></parameter>
+  <parameter name="valuepass" value="suresh@124"></parameter>
+  
+  <parameter name="editbox" value="9874562314"></parameter>
+  <parameter name="filedpass" value="@#$%#"></parameter>
+  
+  <parameter name="emailid" value="Sureshsatz2000@gmail.com"></parameter>
+  <parameter name="mobileno" value="9384646016"></parameter>
+    <classes>
+      <class name="org.run.Runner"/>
+    </classes>
+  
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+ 

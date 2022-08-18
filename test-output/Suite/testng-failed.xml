@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="password" value="9384646016"/>
+    <parameter name="username" value="Sureshsatz2000@gmail.com"/>
+    <classes>
+      <class name="org.run.Runner">
+        <methods>
+          <include name="startstime"/>
+          <include name="testCase4"/>
+          <include name="testCase1" invocation-numbers="0"/>
+          <include name="browserClose"/>
+          <include name="testCase3"/>
+          <include name="testCase2"/>
+          <include name="browserLaunch"/>
+          <include name="endsTime"/>
+        </methods>
+      </class> <!-- org.run.Runner -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
